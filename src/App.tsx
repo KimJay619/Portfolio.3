@@ -1,5 +1,5 @@
 import React from "react";
-
+import ProfPic from "./assets/26f15627-5a32-4570-a665-f57ddb3fcdf1.jpg";
 const Portfolio: React.FC = () => {
   return (
     <div className="parent">
@@ -16,7 +16,7 @@ const Portfolio: React.FC = () => {
           </div>
 
           <img
-            src="src\assets\26f15627-5a32-4570-a665-f57ddb3fcdf1.jpg"
+            src={ProfPic}
             alt="Profile"
             className="w-32 h-32 md:w-44 md:h-44 rounded-full border-4 border-gray-700 shadow-lg"
           />
